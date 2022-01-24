@@ -12,7 +12,7 @@ function Weather() {
 
 
 
-    const APIKEY="224ad222d6ebd6d836e88139602d28fd";
+    const APIKEY="";
     const [data,setData]=useState({});
     const [city,setCity]=useState("");
     const getWeather=(city)=>{
